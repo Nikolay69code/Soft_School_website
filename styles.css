@@ -4,34 +4,50 @@ body {
     padding: 0;
 }
 
-header {
-    font-family: 'PT Sans', sans-serif;
+.container1 {
+    display: flex; /* Используем flexbox для горизонтального расположения блоков */
+    flex-direction: column; /* Устанавливаем направление по вертикали */
+    justify-content: center;
+    padding: 50px; /* Отступы вокруг контейнера */
     background-image: url('images/fontImage.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px; /* Установите высоту вашего элемента */
-    display: flex; /* Используем flexbox для выравнивания элементов */
-            align-items: center; /* Выравнивание по вертикали */
-            justify-content: space-between; /* Выравнивание по горизонтали к началу */
-            padding: 10px; /* Отступы вокруг содержимого */
-            background-color: #333; /* Цвет фона для контраста */
-            font-family: 'PT Sans', sans-serif;
 }
 
+.titleBlock{
+    text-align: center;
+    height: 350px;
+}
+
+header {
+    font-family: 'PT Sans', sans-serif;
+    height: 100px; /* Установите высоту вашего элемента */
+    display: flex; /* Используем flexbox для выравнивания элементов */
+             /* Выравнивание по вертикали */
+            justify-content: space-between; /* Выравнивание по горизонтали к началу */
+            padding: 10px; /* Отступы вокруг содержимого */
+            }
+
 .logo {
+    align-items: center;
     display: block; /* Делаем изображение блочным элементом */
-    width: 300px; /* Устанавливаем ширину логотипа (по желанию) */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
+    width: auto; /* Устанавливаем ширину логотипа (по желанию) */
+    height: 50px; /* Автоматическая высота для сохранения пропорций */
     margin-right: 20px;
 }
 
 .title {
+    position: absolute;
+    bottom: 120px; /* Отступ от нижнего края */
+    left: 0; /* Можно настроить по горизонтали */
+    right: 0;
     color: white; /* Цвет текста заголовка */
             font-size: 34px; /* Размер шрифта заголовка */
             text-align: center; /* Центрируем текст */
             flex-grow: 1; 
     font-family: 'PT Sans', sans-serif;
+    margin-bottom: 200px; /* Отступ снизу */
 }
 
 section {
@@ -54,7 +70,7 @@ footer {
 
 .nav-links {
     display: flex; /* Используем flexbox для навигационных ссылок */
-    gap: 15px; /* Промежуток между ссылками */
+    gap: 25px; /* Промежуток между ссылками */
 }
 
 .nav-link {
@@ -66,15 +82,8 @@ footer {
     text-decoration: underline; /* Подчеркивание при наведении */
 }
 
-.container {
-    display: flex; /* Используем flexbox для горизонтального расположения блоков */
-    justify-content: space-around; /* Распределяем блоки по горизонтали */
-    padding: 20px; /* Отступы вокруг контейнера */
-}
-
-
 sectionForm{
-    background-color: black;
+    background-color: #1C1C1C;
     color: white;
     font-family: Arial, sans-serif;
     display: flex;
@@ -113,7 +122,7 @@ h20 {
 }
 
 .form-container {
-    background-color: black;
+    background-color: #1C1C1C;
     border: 2px solid lightblue; /* Голубая обводка */
     padding: 20px;
     border-radius: 10px;
