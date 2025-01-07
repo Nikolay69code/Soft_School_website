@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'PT Sans', sans-serif;
+    background-image: url('images/fontImage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px; /* Установите высоту вашего элемента */
+    display: flex; /* Используем flexbox для выравнивания элементов */
+            align-items: center; /* Выравнивание по вертикали */
+            justify-content: space-between; /* Выравнивание по горизонтали к началу */
+            padding: 10px; /* Отступы вокруг содержимого */
+            background-color: #333; /* Цвет фона для контраста */
+            font-family: 'PT Sans', sans-serif;
+}
+
+.logo {
+    display: block; /* Делаем изображение блочным элементом */
+    width: 300px; /* Устанавливаем ширину логотипа (по желанию) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    margin-right: 20px;
+}
+
+.title {
+    color: white; /* Цвет текста заголовка */
+            font-size: 34px; /* Размер шрифта заголовка */
+            text-align: center; /* Центрируем текст */
+            flex-grow: 1; 
+    font-family: 'PT Sans', sans-serif;
+}
+
+section {
+    background-color:#E6E6FA;
+    padding: 20px;
+}
+
+h2 {
+    
+    color: #000000;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.nav-links {
+    display: flex; /* Используем flexbox для навигационных ссылок */
+    gap: 15px; /* Промежуток между ссылками */
+}
+
+.nav-link {
+    color: white; /* Цвет текста ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+.container {
+    display: flex; /* Используем flexbox для горизонтального расположения блоков */
+    justify-content: space-around; /* Распределяем блоки по горизонтали */
+    padding: 20px; /* Отступы вокруг контейнера */
+}
+
+
+sectionForm{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h20 {
+    text-align: center;
+    font-size: 32px
+    
+}
+.container02 {
+    display: flex; /* Используем flexbox для горизонтального расположения блоков */
+    flex-direction: column; /* Выравнивание по вертикали */
+    height: 40vh; /* Высота контейнера
+}
+
+.block {
+    background-color: white; /* Цвет фона блоков */
+    border: 1px solid #ccc; /* Рамка вокруг блоков */
+    padding: 20px; /* Внутренние отступы в блоках */
+    width: 30%; /* Ширина блоков */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для блоков */
+    border-radius: 15px;
+    text-align: center; /* Центрируем текст внутри блоков */
+    margin: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.block-image {
+    max-width: 100%; /* Максимальная ширина изображения - 100% от родителя */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border-radius: 10px; /* Закругление углов изображений */
+}
+
+.form-container {
+    background-color: black;
+    border: 2px solid lightblue; /* Голубая обводка */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Ширина формы */
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightblue; /* Голубая обводка для полей */
+    border-radius: 5px;
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+}
+
+input::placeholder {
+    color: lightgray; /* Цвет плейсхолдера */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: gray; /* Серый цвет кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgray; /* Темнее при наведении */
+}

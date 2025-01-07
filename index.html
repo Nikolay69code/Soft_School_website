@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Soft School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo2.png" alt="Логотип" class="logo">
+            <h1 class="title">Учим детей важнейшим навыкам в современном мире</h1>
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">Главная</a>
+                <a href="#courses" class="nav-link">О нас</a>
+                <a href="#contact" class="nav-link">Контакты</a>
+            </nav>
+    </header>
+
+    <section id="about">
+        <h2>Чему и зачем мы учим</h2>
+        <div class="container">
+            <div class="block">
+                <img src="images/number1.png" alt="Изображение 1" class="block-image">
+                <p>В школе постоянно просят сделать презентации и т.д</p>
+            </div>
+            <div class="block">
+                <img src="images/number2.png" alt="Изображение 2" class="block-image">
+                <p>В школе постоянно просят сделать презентации и т.д</p>
+            </div>
+            <div class="block">
+                <img src="images/number3.png" alt="Изображение 3" class="block-image">
+                <p>В школе постоянно просят сделать презентации и т.д</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h2>Как будут проходить занятия</h2>
+        <div class="container">
+            <div class="block">
+                <p>Наши занятия будут состоят из теории и практики</p>
+            </div>
+            <div class="container02">
+                <div class="block">
+                    <p>1 час занятия</p>
+                </div>
+                <div class="block">
+                    <p>50% практики   30% теории   20% обсуждения</p>
+                </div>
+                <div class="block">
+                    <p>Занятия проходят по выходным в центре Триго в Истре</p>
+                    <p>Цена одного занятия: 500р</p>
+                    <p>Занятия проходит по группам от 3 человек</p>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <sectionForm>
+        <div class="form-container" id="contact">
+            <h20>Запись на пробное занятие</h20>
+            <form id="registrationForm">
+                <label for="fullname">ФИО:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Введите ваше ФИО" required>
+
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Введите ваш телефон" required>
+
+                <label for="telegram">Username в Telegram:</label>
+                <input type="text" id="telegram" name="telegram" placeholder="Введите ваш username" required>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </sectionForm>
+    <footer>
+        <p>&copy; 2023 Частная школа программирования. Все права защищены.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
