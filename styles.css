@@ -96,12 +96,12 @@ sectionForm{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     margin: 0;
 }
-h20 {
+.form-label {
     text-align: center;
-    font-size: 32px
+    font-size: 22px
 }
 
 .big-blue-text {
@@ -153,6 +153,8 @@ h20 {
     background-color: #1C1C1C;
     border: 2px solid lightblue; /* Голубая обводка */
     padding: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
     border-radius: 10px;
     width: 300px; /* Ширина формы */
 }
@@ -178,7 +180,7 @@ input::placeholder {
 }
 
 button {
-    width: 100%;
+    width: 105%;
     padding: 10px;
     background-color: gray; /* Серый цвет кнопки */
     color: white; /* Цвет текста кнопки */

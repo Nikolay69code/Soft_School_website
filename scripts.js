@@ -7,7 +7,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
     const message = "Новая запись на пробное занятие:\nФИО: ${fullname}\nТелефон: ${phone}\nUsername в Telegram: ${telegram}";
 
-    const token = '7627174908:AAHS_ykW-wPTMW3B06hESzsDTvAcyTK0UdM'; // Замените на ваш токен
+    const token = '7671552008:AAEHzK5BrfRqwigEXvX4wy8G-gAPTxxkCmc'; // Замените на ваш токен
     const chatId = '@kola224'; // Замените на ваш chat_id или username
 
     fetch("https://api.telegram.org/bot${token}/sendMessage", {
