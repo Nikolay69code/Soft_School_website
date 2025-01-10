@@ -102,8 +102,18 @@ sectionForm{
 h20 {
     text-align: center;
     font-size: 32px
-    
 }
+
+.big-blue-text {
+    font-size: 48px; /* Размер шрифта */
+    color: rgb(92, 110, 192);     /* Цвет текста */
+}
+
+.big-grey-text {
+    font-size: 35px; /* Размер шрифта */
+    color: rgb(82, 164, 175);     /* Цвет текста */
+}
+
 .container02 {
     display: flex; /* Используем flexbox для горизонтального расположения блоков */
     flex-direction: column; /* Выравнивание по вертикали */
@@ -111,7 +121,7 @@ h20 {
 }
 
 .blockSecond{
-            flex: 1; /* Занимает равное пространство */
+    width: 800px; /* Занимает равное пространство */
             margin: 0 70px; /* Отступ между блоками */
             padding: 20px;
             background-color: #ffffff; /* Цвет фона блоков */
@@ -119,16 +129,18 @@ h20 {
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для блоков */
 }
 
+.litle-text{
+    font-size: 13px;
+}
+
 .block {
-    background-color: white; /* Цвет фона блоков */
-    border: 1px solid #cccccc; /* Рамка вокруг блоков */
-    padding: 20px; /* Внутренние отступы в блоках */
-    width: 30%; /* Ширина блоков */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для блоков */
-    border-radius: 15px;
-    text-align: center; /* Центрируем текст внутри блоков */
-    margin: 20px;
-    font-family: 'PT Sans', sans-serif;
+     /* Занимает равное пространство */
+     width: 400px;       
+     margin: 0 70px; /* Отступ между блоками */
+            padding: 20px;
+            background-color: #ffffff; /* Цвет фона блоков */
+            border-radius: 25px; /* Закругленные углы */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для блоков */
 }
 
 .block-image {
